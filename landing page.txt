@@ -1,0 +1,145 @@
+<html>
+  <head>
+    <title>Product Landing Page</title>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,300&display=swap" rel="stylesheet">
+  <body>
+  <div class="container">
+  <div class="row">
+  <div class="col-md-8-offset-2">
+<header id="header">
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav-bar">
+  <a class="navbar-brand" href="#"> <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Shopee-logo.jpg" id="header-img"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#home">Home </a>
+      <a class="nav-item nav-link" href="#features">Features</a>
+      <a class="nav-item nav-link" href="#pricing">Pricing</a>
+      <a class="nav-item nav-link" href="#contact" >Contact</a>
+    </div>
+  </div>
+</nav>
+    </header>
+<section id="home">
+<div class="jumbotron jumbotron-fluid">
+  <div class="container" id="central">
+    <h1 class="display-4">Shopee</h1>
+    <p class="lead">Sign up for our newsletter to receive exciting new offers!</p>
+	<form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+      <div class="form-row">
+	  <div class="form-group col-md-3"></div>
+      <div class="form-group col-md-5">
+      <input name="email" type="email" id="email" class="form-control" placeholder="Your Email" required>
+        </div>
+		<div class="form-group col-md-1">
+		 <input type ="submit" value="Submit" id="submit" class=" btn btn-danger form-control" >
+      </div>
+	  <div class="form-group col-md-3"></div>
+   </div>
+    </form>
+</div>
+    </section>
+    <section id="features">
+   <div class="media">
+   <div class="container">
+   <div class="row">
+   <div class="col-md-5">
+		 <video width="420" height="240" controls id="video">
+		  <source src="https://www.youtube.com/watch?v=j5VqO5lwP1E" type="video/mp4">
+		</video>
+		</div>
+		<div class="col-md-7">
+		  <div class="media-body">
+			<h5 class="mt-0">Features</h5>
+			Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at,
+			tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.Donec lacinia congue felis
+			in faucibus. Donec lacinia congue felis in faucibus. Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at,
+			
+		  </div>
+		</div>
+		</div>
+		</div>
+		</div>
+      </section>
+	   <section id="pricing">  
+   <div class="container">
+   <div class="row">
+   <div class="col-md-7">
+   <div class="media-body">
+			<h5 class="mt-0">Pricing</h5>
+			Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at,
+			tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.Donec lacinia congue felis
+			in faucibus. Donec lacinia congue felis in faucibus. Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+			Cras purus odio, vestibulum in vulputate at,</div>
+		</div>
+		 <div class="col-md-5">
+		 <div class="alert alert-warning" role="alert">
+  <h4 class="alert-heading">Well done!</h4>
+  <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so 
+  <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+</div>
+		</div>
+		</div>
+		</div>
+      </section>
+	  <section id="contact">
+	  <footer>
+	   <p> <strong>&copy;</strong>2020. All Rights Reserved | www.shopee.com | +1 444-3334-333</p>
+	  </footer>
+  </body>
+</html>
+
+
+body{
+   font-family: 'Poppins', sans-serif;
+  }
+#header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+  #header-img{
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+}
+#nav-bar{
+  background: #fff !important;
+  text-align: center;
+}
+.navbar-nav{margin-left: 400px; float: right !important;}
+.nav-link{
+font-size: 30px;
+padding: 0 20px 0 20px !important;
+}
+.nav-link.active{
+color: #f1582e !important;
+}
+.display-4 {
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+	color: #f1582e !important;}
+	
+	#central{
+	text-align: center;}
+	
+	#contact{
+	text-align: left;
+	margin: 70px 0 30px 0;
+	
+	}
+	#features{
+	margin: 70px 0 50px 0;
+	
+	}
+	
+	#pricing{
+	margin: 70px 0 50px 0;
+	
+	}

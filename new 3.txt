@@ -1,0 +1,40 @@
+<html>
+<head>
+  <title>Survey Form</title>
+ <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+ </head>
+  <body>
+    <h1 id="title">Survey Form </h1>
+    <p id="description"> Your feedback is valuable to us. Thank you for taking this survey</p>
+    <form id="survey-form">
+      
+      <label id="name-label">Name: </label>
+      <input name="name" type="text" id="name" placeholder="Name" required>
+      
+      <label id="email-label">Email: </label>
+      <input name="email" type="email" id="email" placeholder="Email" required>
+      
+      <label id="number-label">Number: </label>
+      <input name="number" type="number" id="number" placeholder="Number" min="0" max="999999" required>
+      
+      <select id="dropdown" name="dropdown">
+        <option value="0">Air Ticketing</option>
+        <option value="1">Accomodation</option>
+        <option value="3">Tours & Travel</option>
+        <option value="4">Cargo</option>
+        <option value="5">Car Rental</option>
+      </select> 
+       <input type="radio" name="other-services" value="Airport Transfers" checked>Airport Transfers
+       <input type="radio" name="other-services" value="Money Transfers">Money Transfers
+      <input type="radio" name="other-services" value="Visa Processing">Visa Processing
+      
+      <input type="checkbox" name="plans" value="Offers">Offers
+       <input type="checkbox" name="plans" value="Packages">Packages
+      <input type="checkbox" name="plans" value="Gift Cards">Gift Cards
+      
+      <textarea  rows="4" name="comments" placeholder="write additional comments here"></textarea>
+      
+      <input type ="submit" value="Submit" id="submit">
+    </form>
+  </body>
+</html>

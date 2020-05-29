@@ -1,0 +1,38 @@
+<div class="form-group col-md-6">
+			    <label class="text-black" for="fname">First Name</label>
+                <input type="text" name="fname" class="form-control" id="fname" placeholder="Fist Name" required="" data-error="Please enter your first name">
+                <div class="help-block with-errors"></div>
+              </div>
+			  
+			  
+			    <nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="https://photos.google.com/search/_tra_/photo/AF1QipPS4JSc1EvemGIRl-x8jMkw8_FGWvPk3yKgiK8V" width="30" height="30" alt="">
+  </a>
+        <a> Home</a>
+        <a> Features</a>
+        <a> Pricing</a>
+        <a> Contact</a>
+</nav>
+==============================================================================================================================
+<html>
+<head>
+  <title> Product Landing Page
+  </title><script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div id="header">
+      <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Shopee-logo.jpg">
+    </div>
+    <nav>
+      <ul>
+        <li> Features</li>
+        <li> How It Works</li>
+        <li> Pricing</li>
+        <li> Contact</li>
+      </ul>
+    </nav>
+    </div>
+</body>
+</html>
